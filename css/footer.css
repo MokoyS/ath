@@ -1,0 +1,57 @@
+footer {
+    height: auto;
+    background-color: rgba(226, 218, 218, 0.37);
+}
+
+footer h1:second {
+    margin-bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    margin-left: 40px ;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 251px;
+}
+
+.margintop {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.margintop2 {
+    padding-bottom: 40px!important;
+    margin-bottom: 0!important;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
+    padding: 40px 0;
+    margin: 0 40px;
+}
+
+.p p {
+    width: 600px;
+}

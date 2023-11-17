@@ -1,0 +1,63 @@
+@import url(css/header.css);
+@import url(css/container.css);
+@import url(css/banner1.css);
+@import url(css/banner2.css);
+@import url(css/banner3.css);
+@import url(css/banner4.css);
+@import url(css/banner5.css);
+@import url(css/banner6.css);
+@import url(css/footer.css);
+@import url(css/slider.css);
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: bold;
+     margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    width: 100%;
+}
+
+.paragraphe1 {
+    padding-right: 111px;
+}
+
+
+.paragraphe2 {
+    padding-left: 111px;
+}
+
+.header1 {
+    text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+    .paragraphe1 {
+        padding-right :50px;
+    }
+    .paragraphe2 {
+        padding-left :50px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .paragraphe1 {
+        padding-right :0;
+    }
+    .paragraphe2 {
+        padding-left :0;
+    }
+}

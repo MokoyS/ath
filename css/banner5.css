@@ -1,0 +1,37 @@
+.banner5 {
+    margin: 0 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner5 h1 {
+    text-align: center;
+}
+.banner5 .grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr 1fr ;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .banner5 .grid {
+        grid-template-columns: 300px 300px ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+}
+@media screen and (max-width: 650px) {
+    .banner5 .grid {
+        grid-template-columns: 300px ;
+        grid-template-rows: auto ;
+    }
+
+    .banner4 img {
+        height: auto;
+        width: 100%;
+        margin: 0 20px;
+    }
+}
+
